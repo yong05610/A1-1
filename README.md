@@ -1,4 +1,4 @@
- 프롬프트 관리 프로그램 - 미션 완료 리포트
+# 프롬프트 관리 프로그램 - 미션 완료 리포트
 
 ## 1. 기본 정보
 ###  프롬프트관리 프로그램 작성
@@ -48,6 +48,25 @@
   - 
 ### 4-2. 프로그램 실행 화면
 
+메뉴화면
+
+==============================  
+🟨  프롬프트 관리 프로그램     
+==============================      
+1. 프롬프트 추가
+2. 프롬프트 목록 보기
+3. 카테고리별 보기
+4. 프롬프트 검색
+5. 프롬프트 상세보기
+6. 프롬프트 삭제
+7. 즐겨찾기 추가/해제
+8. 즐겨찾기 목록
+0. 종료
+
+------------------------------
+선택: 
+
+
 <img width="730" height="378" alt="image" src="https://github.com/user-attachments/assets/2ae54bc8-29ba-4f70-b3b0-d57392d91cf6" />
 
 <img width="829" height="347" alt="image" src="https://github.com/user-attachments/assets/a7fe9b1b-7f90-4bf7-b494-81a43a5e5cf6" />
@@ -59,20 +78,22 @@
 
 <img width="743" height="124" alt="image" src="https://github.com/user-attachments/assets/5f3d1b30-6828-49ac-86a5-c332923fdffe" />
 
+✅ 이전 미션 프롬프트 최소 3개 기본 데이터 등록
 
-### 4-3. git log --oneline --graph
 
 
-## 브랜치 
+## 5. 브랜치 
 ### 브랜치 만들기
 
 <img width="1141" height="762" alt="image" src="https://github.com/user-attachments/assets/d2ffd17a-61b3-4608-b5dd-452bd8efafee" />
 
-### 브랜치에서 기능추가
+### 5.1 브랜치에서 기능추가
 
+ ✅  브랜치에서 새로운 기능 추가   
+ 
+#### 즐겨찾기 추가/해제 및 즐겨찾기 목록
 
-### 브랜치 병합 
-
+### 5.2 브랜치 병합 
 
 #### GitHub Pull Request 방식의 merge 선택
 
@@ -83,20 +104,20 @@
    - 언제 병합했는지
    - 병합한 사람
 
-git --no-pager log --oneline --graph --decorate --all
+### 5.3  Git 커밋 내역 
 
-<img width="889" height="194" alt="image" src="https://github.com/user-attachments/assets/2ced05db-1228-40d0-bb4d-2e308fc9e7f2" />
-
- 
-## 5. Git 커밋 내역
 - 총 커밋 수:
 ✅ 커밋 최소 10개 이상
    (기능 단위로 나누기)
 
-<img width="703" height="106" alt="image" src="https://github.com/user-attachments/assets/ba717de2-9d05-4b4a-ab3f-81b31f38aae1" />
+  #### git log --oneline --graph
 
-   
-✅ 커밋 메시지에 변경 의도 설명
+- git --no-pager log --oneline --graph --decorate --all
+
+<img width="889" height="194" alt="image" src="https://github.com/user-attachments/assets/2ced05db-1228-40d0-bb4d-2e308fc9e7f2" />
+ 
+
+
 ✅ 아래 명령어 각 1회 이상 사용:
    - git init
    - git add
@@ -106,14 +127,13 @@ git --no-pager log --oneline --graph --decorate --all
    - git checkout
    - git clone
    - git merge
-✅ 브랜치 생성 + 병합 로컬에서 수행
-✅ 이전 미션 프롬프트 최소 3개 기본 데이터 등록
-
 
 
 ## 6. 어려웠던 점 & 해결 방법
-- 문제: 
-- 해결: 
+
+- 문제: 학습네이토에서 claude sonnet 을 사용해서 미션을 기억시키고 미션의 순서대로 네이토의 도움말을 보며 도움에 따라 진행 하다 200턴이 넘게 되면부터는 미션을 거의 기억을 못하게 되어 엉뚱한 방향으로 진행이되어 미션을 아무리 다시 보여주어도 5턴을 넘기지 못하고 미션을 망각하는 현상이 벌어여 그 이후부터 다른 스레드로 프로프트를 일일이 작성해서 진행하게 되어 진행이 늦어지게 되었음 
+
+- 해결: 해결을 하지 못하였으나 앞으로는 퍼실리테이터님의 힌트에 따라 처음부터 미션을 파악하게 하고 그것에 대한 분할하여 질문할 수 있는 프롬프트를 준비하게 해서 다른 쓰레드와 공둥운영을 통해 기억소멸을 피하려고  합니다. 
 
 ## 7. 배운 점
 
