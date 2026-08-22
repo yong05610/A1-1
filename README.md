@@ -35,11 +35,12 @@
   
   - 
 ## 4. 프로그램 개발
-
+### 메뉴화면
 <img width="477" height="361" alt="image" src="https://github.com/user-attachments/assets/8cee7897-7807-4798-80cb-50bcc31c082c" />
 
- 
-# 📌 프롬프트 관리 프로그램 기능설명서
+
+
+## 📌 프롬프트 관리 프로그램 기능설명서
 
 ### 프로그램 개요
 프롬프트를 추가·조회·검색·수정·삭제하고, 즐겨찾기로 관리할 수 있는 콘솔 기반 프로그램입니다.
@@ -115,7 +116,7 @@
  
 #### 즐겨찾기 추가/해제 및 즐겨찾기 목록
 
-### 6.3 브랜치 병합 
+### 5.3 브랜치 병합 
 
 #### GitHub Pull Request 방식의 merge 선택
 
@@ -134,30 +135,52 @@
 
   #### git log --oneline --graph
 
-- git --no-pager log --oneline --graph --decorate --all
+  #### git --no-pager log --oneline --graph --decorate --all
 
-<img width="889" height="194" alt="image" src="https://github.com/user-attachments/assets/2ced05db-1228-40d0-bb4d-2e308fc9e7f2" />
- 
+<img width="760" height="316" alt="image" src="https://github.com/user-attachments/assets/ecfbafc4-fa57-49ed-8c4a-e8a6d9b8aea3" />
 
 
 ✅ 아래 명령어 각 1회 이상 사용:
-   - git init
-   - git add
-   - git commit
-   - git push
-   - git pull
-   - git checkout
-   - git clone
-   - git merge
+
+### 7. 📚 Git 주요 명령어 정리
+
+| 명령어 | 설명 | 사용 예시 |
+|--------|------|-----------|
+| `git init` | 현재 폴더를 Git 저장소로 초기화 (Git 사용 시작) | `git init` |
+| `git add` | 변경된 파일을 스테이징(커밋 준비) | `git add .` |
+| `git commit` | 변경사항을 기록(저장) | `git commit -m "메시지"` |
+| `git push` | 로컬 내용을 원격(깃허브)에 업로드 | `git push origin main` |
+| `git pull` | 원격(깃허브) 내용을 로컬로 받아오기 | `git pull origin main` |
+| `git checkout` | 브랜치 이동 또는 파일 되돌리기 | `git checkout main` |
+| `git clone` | 원격 저장소를 통째로 복사해오기 | `git clone 저장소주소` |
+| `git merge` | 다른 브랜치를 현재 브랜치에 병합 | `git merge feature/favorite` |
 
 
-## 7. 어려웠던 점 & 해결 방법
+###💡 명령어 흐름 이해하기
+
+① git init      →  Git 시작 (처음 한 번만)  
+      ↓  
+② git add       →  파일 준비  
+      ↓
+③ git commit    →  저장(기록)  
+      ↓
+④ git push      →  깃허브에 올리기  
+      ↓
+⑤ git pull      →  깃허브에서 받기 (협업 시)  
+
+### 🌱 브랜치 관련
+
+git checkout  →  브랜치 이동  
+git merge     →  브랜치 합치기  
+
+
+## 8. 어려웠던 점 & 해결 방법
 
 - 문제: 학습네이토에서 claude sonnet 을 사용해서 미션을 기억시키고 미션의 순서대로 네이토의 도움말을 보며 도움에 따라 진행 하다 200턴이 넘게 되면부터는 미션을 거의 기억을 못하게 되어 엉뚱한 방향으로 진행이되어 미션을 아무리 다시 보여주어도 5턴을 넘기지 못하고 미션을 망각하는 현상이 벌어여 그 이후부터 다른 스레드로 프로프트를 일일이 작성해서 진행하게 되어 진행이 늦어지게 되었음 
 
 - 해결: 해결을 하지 못하였으나 앞으로는 퍼실리테이터님의 힌트에 따라 처음부터 미션을 파악하게 하고 그것에 대한 분할하여 질문할 수 있는 프롬프트를 준비하게 해서 다른 쓰레드와 공둥운영을 통해 기억소멸을 피하려고  합니다. 
 
-## 8. 배운 점
+## 9. 배운 점
 
   즐겨찾기 기능은 feature/favorite 브랜치에서 개발한 뒤,
   GitHub Pull Request를 통해 main 브랜치에 병합하였다.
