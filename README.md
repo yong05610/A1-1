@@ -1,10 +1,10 @@
 # 프롬프트 관리 프로그램 - 미션 완료 리포트
 
 ## 1. 기본 정보
-###  프롬프트관리 프로그램 작성
+### 과제:  프롬프트관리 프로그램 작성 및 작성을 위한 환경구축
 
-- python 설처
-- VSCODE 설치
+- Python 설처
+- VSCode 설치
 - GIT 설치
 - 프로프트 관리 프로그램 작성
 
@@ -14,24 +14,12 @@
 - VSCode 버전: 1.133.0
 - Git 버전: 2.55.0
 
-## 3. 구현 기능 목록
-| 기능 | 구현 여부 | 비고 |
-|------|----------|------|
-| 메뉴 시스템 | ✅ | |
-| 프롬프트 추가 | ✅ | |
-| 목록 보기 | ✅ | |
-| 카테고리별 조회 | ✅ | |
-| 검색 | ✅ | |
-| 상세 보기 | ✅ | |
-| 즐겨찾기 | ✅ | |
-| 종료 | ✅ | |
-
-## 4. 개발 환경 설정
-### 4-1. python 
+## 3. 개발 환경 설정
+### 3-1. python 
   
 <img width="1523" height="779" alt="스크린샷 2026-08-16 155258" src="https://github.com/user-attachments/assets/375136d8-64bc-4ef1-a5ac-38e25a3f5f6e" />
 
-### 4-2. VSCODE
+### 3-2. VSCODE
    
 <img width="1418" height="621" alt="image" src="https://github.com/user-attachments/assets/a3328ef9-4d60-44fd-be1d-9c231eddfc95" />
 
@@ -40,13 +28,13 @@
 <img width="833" height="599" alt="image" src="https://github.com/user-attachments/assets/3f65269c-e15a-41ec-9de1-deb26f8829cc" />
 
  
-### 4-3. Git
+### 3-3. Git
 
 <img width="800" height="612" alt="image" src="https://github.com/user-attachments/assets/c7a0c168-e2a9-422c-8d15-43646a303c78" />
 
   
   - 
-## 5. 프로그램 개발
+## 4. 프로그램 개발
 
 <img width="477" height="361" alt="image" src="https://github.com/user-attachments/assets/8cee7897-7807-4798-80cb-50bcc31c082c" />
 
@@ -116,12 +104,12 @@
 
 
 
-## 6. 브랜치 
-### 6.1 브랜치 만들기
+## 5. 브랜치 
+### 5.1 브랜치 만들기
 
 <img width="1141" height="762" alt="image" src="https://github.com/user-attachments/assets/d2ffd17a-61b3-4608-b5dd-452bd8efafee" />
 
-### 6.2브랜치에서 기능추가
+### 5.2브랜치에서 기능추가
 
  ✅  브랜치에서 새로운 기능 추가   
  
@@ -138,7 +126,7 @@
    - 언제 병합했는지
    - 병합한 사람
 
-## 7 Git 커밋 내역 
+## 6. Git 커밋 내역 
 
 - 총 커밋 수:
 ✅ 커밋 최소 10개 이상
@@ -163,13 +151,13 @@
    - git merge
 
 
-## 8. 어려웠던 점 & 해결 방법
+## 7. 어려웠던 점 & 해결 방법
 
 - 문제: 학습네이토에서 claude sonnet 을 사용해서 미션을 기억시키고 미션의 순서대로 네이토의 도움말을 보며 도움에 따라 진행 하다 200턴이 넘게 되면부터는 미션을 거의 기억을 못하게 되어 엉뚱한 방향으로 진행이되어 미션을 아무리 다시 보여주어도 5턴을 넘기지 못하고 미션을 망각하는 현상이 벌어여 그 이후부터 다른 스레드로 프로프트를 일일이 작성해서 진행하게 되어 진행이 늦어지게 되었음 
 
 - 해결: 해결을 하지 못하였으나 앞으로는 퍼실리테이터님의 힌트에 따라 처음부터 미션을 파악하게 하고 그것에 대한 분할하여 질문할 수 있는 프롬프트를 준비하게 해서 다른 쓰레드와 공둥운영을 통해 기억소멸을 피하려고  합니다. 
 
-## 9. 배운 점
+## 8. 배운 점
 
   즐겨찾기 기능은 feature/favorite 브랜치에서 개발한 뒤,
   GitHub Pull Request를 통해 main 브랜치에 병합하였다.
