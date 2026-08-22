@@ -101,8 +101,9 @@
 
 <img width="743" height="124" alt="image" src="https://github.com/user-attachments/assets/5f3d1b30-6828-49ac-86a5-c332923fdffe" />
 
-✅ 이전 미션 프롬프트 최소 3개 기본 데이터 등록
+### ✅ 이전 미션 프롬프트 최소 3개 기본 데이터 등록
 
+<img width="905" height="553" alt="image" src="https://github.com/user-attachments/assets/797133f5-1039-48db-ae58-409ccba56983" />
 
 
 ## 5. 브랜치 
